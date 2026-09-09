@@ -1,3 +1,6 @@
+from dotenv import load_dotenv
+load_dotenv()
+
 import os
 import urllib.request
 import xml.etree.ElementTree as ET
